@@ -6,10 +6,22 @@ import { Search, ArrowRight, ShieldCheck, Clock, MapPin } from "lucide-react";
 export default function Hero() {
   return (
     <section className="relative w-full min-h-[95vh] flex flex-col items-center justify-center pt-20 pb-16 overflow-hidden">
-      {/* Dynamic Background */}
-      <div className="absolute inset-0 bg-[#04060d]">
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
-        <div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-accent opacity-20 blur-[100px]"></div>
+      {/* Background Image & Overlays */}
+      <div className="absolute inset-0 z-0">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=1920&q=80"
+          alt="Cargo ship at port"
+          className="absolute inset-0 w-full h-full object-cover object-center opacity-40"
+        />
+        {/* Deep gradient overlay for premium feel and text readability */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#04060d]/90 via-[#04060d]/80 to-[#04060d]/95" />
+        
+        {/* Subtle grid pattern */}
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:24px_24px]"></div>
+        
+        {/* Glow effect */}
+        <div className="absolute left-0 right-0 top-0 m-auto h-[310px] w-[310px] rounded-full bg-accent opacity-20 blur-[100px]"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-6 relative z-10 w-full flex flex-col items-center text-center">
