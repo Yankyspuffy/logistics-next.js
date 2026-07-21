@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Preloader from "@/components/Preloader";
 import "./globals.css";
 
 const inter = Inter({
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} font-sans antialiased text-primary selection:bg-accent selection:text-primary max-w-[100vw] overflow-x-hidden`}
       >
+        <Preloader />
         {children}
       </body>
     </html>

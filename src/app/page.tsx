@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import StatsMarquee from "@/components/StatsMarquee";
 import Services from "@/components/Services";
+import Industries from "@/components/Industries";
 import DataBar from "@/components/DataBar";
 import Chatbot from "@/components/Chatbot";
 import Footer from "@/components/Footer";
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <StatsMarquee />
       <Services />
+      <Industries />
       <DataBar />
       <Footer />
       <Chatbot />

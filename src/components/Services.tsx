@@ -44,24 +44,24 @@ const services = [
 
 const commitments = [
   {
-    title: "Accountability",
-    icon: Briefcase,
-    description: "We own our commitments. If something goes wrong, you hear it from us first, with a plan."
+    title: "Local presence, regional reach",
+    icon: Network,
+    description: "Owned offices in Nairobi, Mombasa, Kisumu, and Eldoret, with partner offices in Kampala and Kigali."
   },
   {
-    title: "Transparency",
+    title: "Reliability you can plan around",
     icon: Eye,
-    description: "Clear pricing, clear paperwork, clear status — no surprises hiding in line items."
+    description: "On-time performance above 97% on our Mombasa–Nairobi and cross-border lanes, backed by transparent reporting."
   },
   {
-    title: "Long-term thinking",
-    icon: Compass,
-    description: "We make decisions for clients who'll still be with us in ten years, not next quarter."
+    title: "Licensed and accountable",
+    icon: ShieldCheck,
+    description: "KRA-licensed clearing agents, AEO-accredited, and KIFWA member — your cargo is in compliant hands."
   },
   {
-    title: "Operational excellence",
-    icon: Gauge,
-    description: "Continuous improvement is built into every lane, every facility, every process."
+    title: "One point of contact",
+    icon: Briefcase,
+    description: "A single specialist coordinates your shipments, paperwork, and exceptions — no ticket hand-offs."
   }
 ];
 
